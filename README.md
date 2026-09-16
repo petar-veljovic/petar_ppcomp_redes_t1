@@ -57,8 +57,7 @@ atividadecristinaredes/
     ├── doc.pdf                     # documentação 
     ├── Fluxogramas.pptx            # fluxogramas 
     └── testes/                     # printscreens (logs reais) de cada etapa
-        ├── gabarito/               #   comportamento do código original
-        ├── src/                    #   comportamento do sistema corrigido/estendido
+        ├── src/                    #   comportamento do sistema corrigido e estendido
         └── tcp_buffer/             #   log do teste de fragmentação/coalescência
 ```
 
