@@ -55,7 +55,8 @@ atividadecristinaredes/
 │   └── test_unsolicited.py         # prova o efeito de mensagem não solicitada (seção 7.4)
 └── docs/
     ├── doc.pdf                     # documentação 
-    ├── Fluxogramas.pptx            # fluxogramas 
+    ├── Fluxogramas.pptx            # fluxogramas
+    ├── fluxogramas.pdf             # fluxogramas melhorado 
     └── testes/                     # printscreens (logs reais) de cada etapa
         ├── src/                    #   comportamento do sistema corrigido e estendido
         └── tcp_buffer/             #   log do teste de fragmentação/coalescência
@@ -63,7 +64,7 @@ atividadecristinaredes/
 
 **Granularidade de versionamento (sugestão de commits lógicos):**
 
-1. `docs/` — anexos (`Documentacao.pdf` e `Fluxogramas.pptx`).
+1. `docs/` — anexos (`doc.pdf` e `fluxogramas.pdf`).
 2. `src/` — códigos implementados, atualizados e corrigidos dos bugs críticos (seção [7](#7-análise-crítica-bugs-e-melhorias)).
 3. `src/` — extensão: **Ar-Condicionado Inteligente** (protocolo + servidor + cliente).
 4. Melhorias (timer de desligamento automático), `scripts/` e `README.md`.
