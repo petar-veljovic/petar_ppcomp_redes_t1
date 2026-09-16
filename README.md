@@ -33,20 +33,6 @@ Sistema **Cliente/Servidor** em Python que controla dispositivos inteligentes de
 ```
 atividadecristinaredes/
 ├── README.md                       # este documento (núcleo da entrega)
-├── gabarito/                       # CÓDIGO ORIGINAL, exatamente como fornecido
-│   ├── Server.py                   #   (base para o commit 1 do repositório)
-│   ├── GeneralControl.py
-│   ├── DeviceThread.py
-│   ├── Message.py
-│   ├── ControlItem.py
-│   ├── Device.py
-│   ├── Config.py
-│   ├── ClientUtil.py
-│   ├── Cliente_Lampada.py
-│   ├── Cliente_Presenca.py
-│   ├── Cliente_Temperatura.py
-│   ├── ambientes.txt
-│   └── dispositivos.txt
 ├── src/                            # SISTEMA EM EVOLUÇÃO (extensão + correções)
 │   ├── (mesmos arquivos do gabarito, mais:)
 │   ├── Cliente_ArCondicionado.py   #   -> novo dispositivo implementado
