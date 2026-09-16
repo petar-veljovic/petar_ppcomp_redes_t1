@@ -1,0 +1,56 @@
+Inicializando cliente: Termômetro...
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Dispositivo registrado
+---------------------------------
+Selecione o ambiente
+1: Sala
+2: Quarto 1
+3: Quarto 2
+4: Quarto 3
+5: Suite
+6: Banheiro Suite
+7: Banheiro 1
+8: Banheiro 2
+9: Varanda
+10: Cozinha
+11: Corredor 1
+12: Corredor 2
+13: Garagem
+14: Escritorio
+15: Copa
+---------------------------------
+ID do ambiente: >>> Aguardando mensagem
+>>> Decodificando mensagem...
+Dispositivo registrado: ID = 3
+
+==> Ambiente [1] Sala
+Para sair use CTRL+X
+Temperatura lida no sensor: Meu ID=3
+Enviando temperatura [09/13/2026, 14:55:41] 5: Leitura, Dispositivo: 3, Valor do sensor: 26.0
+Aguardando confirmação...
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Leitura recebida pelo servidor!!!
+
+==> Ambiente [1] Sala
+Para sair use CTRL+X
+Temperatura lida no sensor: Meu ID=3
+Enviando temperatura [09/13/2026, 14:55:41] 5: Leitura, Dispositivo: 3, Valor do sensor: 25.0
+Aguardando confirmação...
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Leitura recebida pelo servidor!!!
+
+==> Ambiente [1] Sala
+Para sair use CTRL+X
+Temperatura lida no sensor: Meu ID=3
+Enviando temperatura [09/13/2026, 14:55:42] 5: Leitura, Dispositivo: 3, Valor do sensor: 24.0
+Aguardando confirmação...
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Leitura recebida pelo servidor!!!
+
+==> Ambiente [1] Sala
+Para sair use CTRL+X
+Temperatura lida no sensor: 

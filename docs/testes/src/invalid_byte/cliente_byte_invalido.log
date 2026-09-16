@@ -1,0 +1,5 @@
+Enviado segmento com byte invalido (0x1F) + registro valido
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Servidor ignorou o byte invalido e respondeu a lista de ambientes.
+Fim do cliente de teste

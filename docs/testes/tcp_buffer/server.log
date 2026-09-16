@@ -1,0 +1,75 @@
+Inicializando o servidor
+Carregando tabelas...
+----------------------------------------------
+Carregando tabela do sistema: ambientes.txt
+----------------------------------------------
+1 Sala
+2 Quarto 1
+3 Quarto 2
+4 Quarto 3
+5 Suite
+6 Banheiro Suite
+7 Banheiro 1
+8 Banheiro 2
+9 Varanda
+10 Cozinha
+11 Corredor 1
+12 Corredor 2
+13 Garagem
+14 Escritorio
+15 Copa
+----------------------------------------------
+
+----------------------------------------------
+Carregando tabela do sistema: dispositivos.txt
+----------------------------------------------
+1 Lâmpada
+2 Sensor de Presença
+3 Termômetro
+4 Ar-Condicionado Inteligente
+----------------------------------------------
+
+Iniciando o controle.
++--------------------------------------------+
+|  Trabalho 01 - Sockets                     |
+|  Disciplina: Redes de Computadores PPComp  |
++--------------------------------------------+
+Servidor inicializado.
+Aguardando conexões dos dispositivos...
+Cliente conectado: ('127.0.0.1', 57948)
+Conectado:  ('127.0.0.1', 57948)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+>>> Decodificando mensagem...
+>>> Decodificando mensagem...
+Mensagem recebida:  ('127.0.0.1', 57948) [09/13/2026, 14:57:23] 2: Registro, Tipo de dispositivo: 3
+('127.0.0.1', 57948): Dispositivo do tipo Termômetro (T) registrado
+Enviando mensagem:  ('127.0.0.1', 57948)
+Termômetro0: Lista enviada ao cliente.
+>>> Aguardando mensagem
+Desconectado: ('127.0.0.1', 57948)
+Cliente conectado: ('127.0.0.1', 57950)
+Conectado:  ('127.0.0.1', 57950)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Mensagem recebida:  ('127.0.0.1', 57950) [09/13/2026, 14:57:25] 2: Registro, Tipo de dispositivo: 3
+('127.0.0.1', 57950): Dispositivo do tipo Termômetro (T) registrado
+Enviando mensagem:  ('127.0.0.1', 57950)
+Termômetro0: Lista enviada ao cliente.
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Mensagem recebida:  ('127.0.0.1', 57950) [09/13/2026, 14:57:26] 4: Seleciona Ambiente, Ambiente selecionado: 1
+Termômetro1: Ambiente selecionado = [1] Sala
+Enviando mensagem:  ('127.0.0.1', 57950)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Mensagem recebida:  ('127.0.0.1', 57950) [09/13/2026, 14:57:26] 5: Leitura, Dispositivo: 1, Valor do sensor: 26.5
+Termômetro1: VALOR LIDO DO SENSOR = 26.5
+Enviando mensagem:  ('127.0.0.1', 57950)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Mensagem recebida:  ('127.0.0.1', 57950) [09/13/2026, 14:57:26] 5: Leitura, Dispositivo: 1, Valor do sensor: 27.5
+Termômetro1: VALOR LIDO DO SENSOR = 27.5
+Enviando mensagem:  ('127.0.0.1', 57950)
+>>> Aguardando mensagem
+Desconectado: ('127.0.0.1', 57950)

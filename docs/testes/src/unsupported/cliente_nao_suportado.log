@@ -1,0 +1,5 @@
+Enviada solicitacao de registro com tipo invalido (99)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Servidor respondeu: Dispositivo: 0, Status: [5] Tipo de dispositivo não suportado
+Fim do cliente de teste

@@ -1,0 +1,10 @@
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Lista de ambientes recebida (15 ambientes)
+Enviado 0x03 + 4 bytes (parcial 5/11 do cabecalho)
+Enviado mais 3 bytes (parcial 8/11 do cabecalho)
+Enviado restante (mensagem concluida, 0 ambientes)
+>>> Aguardando mensagem
+>>> Decodificando mensagem...
+Servidor respondeu: Dispositivo: 0, Status: [10] Mensagem não esperada
+Servidor sobreviveu a lista de ambientes recebida pela metade.
