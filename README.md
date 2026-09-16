@@ -1,5 +1,5 @@
-# Smart Home sobre Sockets TCP
-**Trabalho de Sockets — Disciplina: Redes de Computadores (PPComp)**
+# IFES PPComp - Redes de Computadores
+# Atividade 1 Sockets TCP: Smart Home 
 **Autor: Petar Veljovic**
 
 Sistema **Cliente/Servidor** em Python que controla dispositivos inteligentes de uma residência (lâmpadas, sensores de presença, termômetros e — **novo nesta versão** — ar-condicionado inteligente). O servidor é o centro de controle da casa, gerencia os ambientes, mantém uma conexão TCP ativa com cada dispositivo e é **multithread**. A comunicação obedece a um **protocolo binário de tamanho fixo**, definido com a biblioteca `struct` (big-endian).
@@ -34,33 +34,40 @@ Sistema **Cliente/Servidor** em Python que controla dispositivos inteligentes de
 atividadecristinaredes/
 ├── README.md                       # este documento (núcleo da entrega)
 ├── src/                            # SISTEMA EM EVOLUÇÃO (extensão + correções)
-│   ├── (mesmos arquivos do gabarito, mais:)
+│   ├── Server.py                   # Códigos Python atualizados e corrigidos com implementações
+│   ├── GeneralControl.py
+│   ├── DeviceThread.py
+│   ├── Message.py
+│   ├── ControlItem.py
+│   ├── Device.py
+│   ├── Config.py
+│   ├── ClientUtil.py
+│   ├── Cliente_Lampada.py
+│   ├── Cliente_Presenca.py
+│   ├── Cliente_Temperatura.py
+│   ├── ambientes.txt
+│   └── dispositivos.txt
 │   ├── Cliente_ArCondicionado.py   #   -> novo dispositivo implementado
 │   └── dispositivos.txt            #   -> inclui o tipo 4 (Ar-Condicionado)
 ├── scripts/
 │   ├── run_demo.py                 # gera os logs de demonstração/teste (full, unsupported, invalid_room, invalid_byte, partial_list)
 │   ├── test_buffer_tcp.py          # prova o tratamento do buffer TCP (fragmentação/coalescência)
 │   └── test_unsolicited.py         # prova o efeito de mensagem não solicitada (seção 7.4)
-├── docs/
-│   ├── Documentacao.pdf            # documentação original (anexo)
-│   ├── Fluxogramas.pptx            # fluxogramas originais (anexo)
-│   └── testes/                     # printscreens (logs reais) de cada etapa
-│       ├── gabarito/               #   comportamento do código original
-│       ├── src/                    #   comportamento do sistema corrigido/estendido
-│       └── tcp_buffer/             #   log do teste de fragmentação/coalescência
-└── .gitignore
+└── docs/
+    ├── doc.pdf                     # documentação 
+    ├── Fluxogramas.pptx            # fluxogramas 
+    └── testes/                     # printscreens (logs reais) de cada etapa
+        ├── gabarito/               #   comportamento do código original
+        ├── src/                    #   comportamento do sistema corrigido/estendido
+        └── tcp_buffer/             #   log do teste de fragmentação/coalescência
 ```
 
 **Granularidade de versionamento (sugestão de commits lógicos):**
 
-1. `gabarito/` — código original, **exatamente como fornecido** (primeiro commit).
-2. `docs/` — anexos (`Documentacao.pdf` e `Fluxogramas.pptx`).
-3. `src/` — correção dos bugs críticos (seção [7](#7-análise-crítica-bugs-e-melhorias)).
-4. `src/` — extensão: **Ar-Condicionado Inteligente** (protocolo + servidor + cliente).
-5. Melhorias (timer de desligamento automático), `scripts/` e `README.md`.
-
-A pasta `gabarito/` fica intocada: ela permite comparar *antes/depois* (ver seção
-[7](#7-análise-crítica-bugs-e-melhorias)) e é a cópia fiel que deve compor o primeiro commit.
+1. `docs/` — anexos (`Documentacao.pdf` e `Fluxogramas.pptx`).
+2. `src/` — códigos implementados, atualizados e corrigidos dos bugs críticos (seção [7](#7-análise-crítica-bugs-e-melhorias)).
+3. `src/` — extensão: **Ar-Condicionado Inteligente** (protocolo + servidor + cliente).
+4. Melhorias (timer de desligamento automático), `scripts/` e `README.md`.
 
 > Todos os "printscreens" deste documento são **capturas reais** dos terminais,
 > geradas executando o próprio sistema (cliente e servidor) em TCP local. Os
